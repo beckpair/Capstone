@@ -1,0 +1,49 @@
+import { ThemeOptions } from '@material-ui/core/styles/createMuiTheme';
+
+export const themeOptions: ThemeOptions = {
+  palette: {
+    type: 'light',
+    primary: {
+      main: '#939876',
+    },
+    secondary: {
+      main: '#C67E50',
+    },
+    error: {
+      main: '#000000',
+    },
+    success: {
+      main: '#D5B78D',
+    },
+    info: {
+      main: '#3D4B64',
+    },
+    warning: {
+      main: '#753630',
+    },
+  },
+  typography: {
+    fontFamily: 'Montserrat',
+    h1: {
+      fontFamily: 'Prata',
+    },
+    h2: {
+      fontFamily: 'Prata',
+    },
+    h3: {
+      fontFamily: 'Prata',
+    },
+    h4: {
+      fontFamily: 'Prata',
+    },
+    h5: {
+      fontFamily: 'Prata',
+    },
+    h6: {
+      fontFamily: 'Prata',
+    },
+    button: {
+      fontFamily: 'Prata',
+    },
+  },
+};
